@@ -1,1 +1,2 @@
-select * from `modern-data-stack-demo.demo_dataset.covid_data` where new_recovered > new_confirmed
+SELECT * FROM tenmax-dw-dev.airbyte_internal.airbyte__test_raw__stream_Covid_19_Data
+WHERE new_recovered > new_confirmed
